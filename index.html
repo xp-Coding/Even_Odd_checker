@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odd or Even Checker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        text-align: center;
+      }
+      input {
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .output {
+        margin-top: 20px;
+        text-align: left;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>Odd or Even Checker</h1>
+    <p>Enter a number or a comma-separated list of numbers:</p>
+    <input type="text" id="numberInput" placeholder="e.g., 2, 3, 5, 8" />
+    <br />
+    <button onclick="checkNumber()">Check Odd or Even</button>
+    <br>
+    <div class="output" id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
